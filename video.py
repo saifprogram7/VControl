@@ -3,7 +3,7 @@ from say import texttospeech
 
 #Creating function to play youtube video or search
 def video():
-    texttospeech("What video would you like me to play for you today sir?")
-    video = input("What video would you like me to play for you today sir: ")
+    texttospeech("What video would you like me to play")
+    video = input("What video would you like me to play: ")
     texttospeech("Certainly, enjoy the video")
     kit.playonyt(video)

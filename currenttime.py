@@ -1,4 +1,3 @@
-from datetime import date
 from say import texttospeech
 from datetime import datetime
 

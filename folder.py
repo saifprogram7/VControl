@@ -28,7 +28,7 @@ def folder():
     if "desktop" in location:
         texttospeech("Certainly, what name should I give to the folder?")
         name = input("What name should I give to the folder: ")
-        texttospeech("Abosolutely sir, creating folder now!")
+        texttospeech("Absolutely sir, creating folder now!")
         build = os.path.join(directory['desktop'], name)
         
         #Calling folder check
@@ -38,7 +38,7 @@ def folder():
     elif "university project" in location:
         texttospeech("Certainly, what name should I give to the folder?")
         name = input("What name should I give to the folder: ")
-        texttospeech("Abosolutely sir, creating folder now!")
+        texttospeech("Absolutely sir, creating folder now!")
         build = os.path.join(directory['university project'], name)
         
         #Calling folder check

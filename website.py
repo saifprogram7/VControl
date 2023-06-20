@@ -28,7 +28,7 @@ def website():
     
     #Creating ELIF statement to check if the user has typed 'tryhackme'
     elif "tryhackme" in websiteurl:
-        texttospeech("All the best sir, opening tryhackme now!")
+        texttospeech("All the best sir, opening try hack me now!")
         wb.open('https://tryhackme.com/dashboard')
 
     #Creating ELIF statement to check if the user has typed 'drive'
@@ -51,6 +51,9 @@ def website():
         texttospeech("Hope you find a good streamer to watch, opening twitch now!")
         wb.open('https://www.twitch.tv/')
 
+    elif "facebook" in websiteurl:
+        texttospeech("Opening facebook now!")
+        wb.open('https://www.facebook.com/')
     else:
         texttospeech("I do not have that website programmed in me sir I can not open that website")
         

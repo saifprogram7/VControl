@@ -1,8 +1,9 @@
+#Importing OS
 import os
 
 #Creating Path Variable
 path = {
-    'calculator': "C:\\Windows\\System32\\calc.exe"
+    'discord' : "C:\\Users\\codew\\OneDrive\\Desktop\\Desktop Folder\\Applications\\Discord.lnk"
 }
 
 #Creating function to open discord
