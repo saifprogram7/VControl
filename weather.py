@@ -12,7 +12,7 @@ def kelvin_to_celsius(kelvin):
 def weather_forcast():
     base_url = "https://api.openweathermap.org/data/2.5/weather?"
     key = "ec2d27af588ad0b5f601193384191452"
-    city = "Windsor, UK"
+    city = "London, UK"
     currentTime = datetime.now().time().strftime('%H:%M')
 
     url = base_url + "appid=" + key + "&q=" + city
